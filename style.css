@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/IMG_20230128_143819.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 500px;
+}
+.container {
+    display: grid;
+    grid-template-rows: 30fr 60fr 10fr;
+    /* margin-bottom: 20px; */
+ }
+.second{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    margin-top: 20px;
+    border-left: 20px;
+    margin-left: 40px;
+    /* background-color: blue; */
+    align-items: flex-end;
+}
+.name{
+    font-size: 59px;
+    font-weight: 300;
+    font-family: calibri;
+    font-style: italic;
+    color: white; 
+    border-right: 150px;
+    /* margin-top: 130px; */
+}
+.stack{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: calibri;
+    color: white;
+    margin-bottom: 10px;
+}
+.about {
+    border-radius: 20px;
+    color: black;
+    border:solid 1px white;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    background-color: rgb(230, 85, 85);
+    margin-left: 40px;
+}
+.first{
+    /* background-color: brown; */
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.web{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: calibri;
+    font-style: italic;
+    background-color: rgb(230, 85, 85);
+    border: 2px solid white;
+    margin-left: 850px;
+    margin-bottom: 80px;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    border-radius: 6px;
+}
+img {
+    max-width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    border-style: dotted;
+    border-color: white;
+    margin-top: 40px;
+    margin-left: -600px;
+}
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 1260px;
+    margin-top: -250px;
+}
+.twitter1{
+    margin-top: -200px;
+    color: white;
+    margin-bottom: 70px;
+}
+.twitter2{
+    /* margin-top: -200px; */
+    color: white;
+    margin-bottom: 70px;
+}
+.twitter3{
+    /* margin-top: -200px; */
+    color: white;
+}
+.project{
+    border-radius: 20px;
+    color: black;
+    border:solid 1px whitesmoke;
+    background-color: white;
+    margin-left: 470px;
+    margin-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 6px;
+}
